@@ -1,10 +1,15 @@
 //Array
+// Array of String
 let friend: string[] = ['shakil', 'rachel']
 friend.push()
 
+const frnd1: string[] = ['Jahid', 'Akash']
+friend.push('')
+
+// Array of Number
 let eligibleRollList: number[] = [1, 3]
 
-
+// Array of Object
 const user: {
     firstName: string,
     midleName: string,
@@ -17,7 +22,7 @@ const user: {
     isMarried: false
 }
 
-// --------------------------------------------------------------------
+// ------------------------------------------------------------------------
 
 //Funtion
 //normal function
@@ -59,7 +64,7 @@ const richUser = {
 const arr1: number[] = [1, 50, 2]
 const arr1Arrow: number[] = arr1.map((elem1: number) => elem1 * elem1)
 
-// --------------------------------------------------------------
+// -----------------------------------------------------------------------
 
 //spread Operator
 const frndList1: string[] = ['Mafi', 'Nahid', 'Shafi']
@@ -87,7 +92,7 @@ const mentorList = {
     ...mentors2
 }
 
-// --------------------------------------------------------------------
+// ------------------------------------------------------------------------
 
 //learn rest operator
 {
@@ -104,7 +109,7 @@ const greetFrnds = (...friends: string[]) => {
 }
 greetFrnds('Abul', 'Kabul', 'babul', 'ubul')
 
-// --------------------------------------------------------------------
+// ------------------------------------------------------------------------
 {
     //Destructing
     const user = {
@@ -121,7 +126,7 @@ greetFrnds('Abul', 'Kabul', 'babul', 'ubul')
     const { contactNo, name: { middleName } } = user;
 
 }
-// --------------------------------------------------------------------
+// --------------------------------------------------------------------------
 {
     //Array Destructing
     const myFrnds = ['chadler', 'joey', 'ross', 'rachel', 'monica']
@@ -129,7 +134,7 @@ greetFrnds('Abul', 'Kabul', 'babul', 'ubul')
     //here bestfrnd will be ross and ...rest will store value 'rachel', 'monica'
     //0, 1, bestfrnd(2), rest(3, 4) --- indexing 
 }
-// --------------------------------------------------------------------
+// --------------------------------------------------------------------------
 {
     //type Alise( custom type Name once we declare and allow to use rapidly)
 
@@ -182,7 +187,7 @@ greetFrnds('Abul', 'Kabul', 'babul', 'ubul')
 
 }
 
-// --------------------------------------------------------------------
+// -------------------------------------------------------------------------
 {
     //union types
 
@@ -211,7 +216,7 @@ greetFrnds('Abul', 'Kabul', 'babul', 'ubul')
 
 
 }
-// --------------------------------------------------------------------
+// ------------------------------------------------------------------------
 
 {
 
